@@ -1,0 +1,8 @@
+/opt/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/ninja -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -G Ninja -S /home/nk/Development/Privat/_CPP/CMAKE_Lib_Template -B /home/nk/Development/Privat/_CPP/CMAKE_Lib_Template/cmake-build-debug
+-- Compiler warnings enabled.
+-- Doxygen configured
+-- Added target doc_doxygen
+-- Added clang format target(s)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nk/Development/Privat/_CPP/CMAKE_Lib_Template/cmake-build-debug

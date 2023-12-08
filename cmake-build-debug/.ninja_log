@@ -1,0 +1,7 @@
+# ninja log v5
+1	217	1659812563477789138	CMakeFiles/Template_Lib.dir/src/template.cpp.o	79e0c5aa1b80e4a2
+0	21	1659812571284560888	test/CMakeFiles/test_Template_Lib.dir/template_test.cpp.o	4bac5544297a913f
+1	40	1659812762350496639	build.ninja	ba33e54b22d8c33d
+217	239	1659812563494456028	libTemplate_Lib.a	6dccbc35af261e81
+21	73	1659812571334561562	test/test_Template_Lib	abcc75529fdd8d22
+0	73	1659812762350496639	build.ninja	ba33e54b22d8c33d
