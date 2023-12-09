@@ -1,0 +1,9 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/opt/clion/bin/ninja/linux/x64/ninja -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G Ninja -S /home/nk/Development/Privat/_CPP/memory_formatter -B /home/nk/Development/Privat/_CPP/memory_formatter/cmake-build-debug
+-- no clang format file
+-- Compiler warnings enabled.
+-- Doxygen configured
+-- Added target doc_doxygen
+-- Added clang format target(s)
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/nk/Development/Privat/_CPP/memory_formatter/cmake-build-debug

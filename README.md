@@ -1,8 +1,25 @@
-# CMake Library Project template
+# Memory Format library
 
-This repository is a template for CMake C++ Projects.
+Formatter class to get the value of memory as string.
 
-## Supported Compilers
+## Data types
+ - 1 bit
+ - 8 bit
+ - 16 bit
+ - 32 bit
+ - 64 bit
 
-    - gcc
-    - clang
+## Formats
+ - Binary
+ - Signed decimal
+ - Unsigned decimal
+ - Hexadecimal
+ - Octal
+ - Float
+
+## Endianness
+ - Host
+ - Big
+ - Little
+
+In addition, the swapping of 16 and 32 bit blocks is supported

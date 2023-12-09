@@ -9,9 +9,9 @@ cmake_minimum_required(VERSION 3.13.4 FATAL_ERROR)
 # ======================================================================================================================
 
 # project
-project(CMAKE_Template_Lib LANGUAGES CXX VERSION 0.0.1)
+project(memformat LANGUAGES CXX VERSION 0.0.1)
 
-set(Target "Template_Lib")        # library name
+set(Target "memformat")        # library name
 set(STANDARD 17)                  # C++ Standard
 set(ARCHITECTURE "native")        # CPU architecture to optimize for (only relevant if OPTIMIZE_FOR_ARCHITECTURE is ON)
 
@@ -148,6 +148,7 @@ function(clangwarn)
     target_compile_options(${Target} PUBLIC -Wno-error=unused-exception-parameter)
     target_compile_options(${Target} PUBLIC -Wno-nested-anon-types)
     target_compile_options(${Target} PUBLIC -Wno-gnu-anonymous-struct)
+    target_compile_options(${Target} PUBLIC -Wno-unsafe-buffer-usage)
 
 endfunction()
 
